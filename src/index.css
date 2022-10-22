@@ -1,9 +1,8 @@
 body {
   margin: 0;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  min-height: 100vh;
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 24px;
@@ -22,8 +21,16 @@ a {
   color: #918E9B;
   font-size: 14px;
 }
+
 h1 {
   margin-left: 8px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
 }
 
 .globe {
@@ -42,6 +49,7 @@ h1 {
   width: 100%;
   height: 80px;
   font-size: 15px;
+  letter-spacing: 0.17em;
   margin-bottom: 50px;
 }
 
@@ -49,7 +57,7 @@ h1 {
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 70%;
+  width: 60%;
   margin: 36px 0px;
 }
 
@@ -66,6 +74,7 @@ h1 {
 .locSection {
   display: flex;
   flex-direction: row;
+  margin-bottom: 10px;
 }
 
 .country {
@@ -78,12 +87,12 @@ h1 {
 .title {
   font-style: normal;
   font-weight: bolder;
-  font-size: 30px;
+  font-size: 40px;
   line-height: 30px;
 }
 
 .image {
-  width: 250px;
+  width: 200px;
   height: auto;
   border-radius: 5px;
 }

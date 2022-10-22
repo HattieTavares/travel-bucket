@@ -16,7 +16,7 @@ export default function App() {
   return (
     <div>
       <Header />
-      <section>
+      <section className="main">
         {cards}
       </section>
     </div>
